@@ -18,7 +18,7 @@ jobs:
 
       run: |
         echo "${{ secrets.DOCKER_TOKEN }}" | docker login -u "altfac" --password-stdin
-        docker build . --file Dockerfile --tag altfac/laba55:latest
-        docker push altfac/laba55:latest
+        docker build . --file Dockerfile --tag altfac/laba555:latest
+        docker push altfac/laba555:latest
       
       
